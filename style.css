@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #fff;
+}
+
+.background {
+    background-image:linear-gradient(
+        to right bottom, 
+        rgba(64, 0, 0, 0.9),
+        rgba(244, 109, 117, 0.6)),
+        url(./image/img1.wallspic.com-vector_graphics-paper-monochrome-pattern-monochrome_mode-3840x2400.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.top-bar {
+    height: 40px;
+    width: 90vw;
+    word-spacing: 2px;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.names {
+    height: 260px;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.names img {
+    width: 400px;
+    height: 250px;
+}
+
+.animation {
+    height: 280px;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.groom-cartoon {
+    height: 280px;
+    width: 10vw;
+    margin-left: 10px;
+    animation-name: moveInleft;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes moveInleft{
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+        -webkit-transform: translateX(-50px);
+        -moz-transform: translateX(-50px);
+        -ms-transform: translateX(-50px);
+        -o-transform: translateX(-50px);
+}
+    80%{
+        transform: translateX(400px);
+        -webkit-transform: translateX(400px);
+        -moz-transform: translateX(400px);
+        -ms-transform: translateX(400px);
+        -o-transform: translateX(400px);
+}
+    100%{
+        opacity: 1;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+}
+
+.bridel-cartoon {
+    height: 280px;
+    width: 15vw;
+    margin-left: 860px;
+    animation-name: moveInright;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes moveInright{
+    0%{
+        opacity: 0;
+        transform: translateX(50px);
+        -webkit-transform: translateX(50px);
+        -moz-transform: translateX(50px);
+        -ms-transform: translateX(50px);
+        -o-transform: translateX(50px);
+}
+    80%{
+        transform: translate(-400px);
+        -webkit-transform: translate(-400px);
+        -moz-transform: translate(-400px);
+        -ms-transform: translate(-400px);
+        -o-transform: translate(-400px);
+}
+    100%{
+        opacity: 1;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+    }
+
+.card-btn {
+    height: 60px;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button {
+    width: 120px;
+    height: 50px;
+    text-decoration: none;
+    background: #4E9CAF;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    line-height: 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+/* mehndi-function */
+
+.mehndi-backgrounud {
+        background-image:linear-gradient(
+        to left top, 
+        rgba(64, 2, 0, 0.363),
+        rgba(248, 232, 11, 0.705)),
+        url(./image/wallpaper2you_319128.jpg);
+        background-size: cover;
+        height: 100vh;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+}
+
+.main-line {
+    height: 40px;
+    width: 95vw;
+    color: #1e5116;
+    font-size: 20px;
+    font-family: 'Tsukimi Rounded', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rasm-e-hina {
+    height: 40px;
+    width: 95vw;
+    color: #1e5116;
+    font-size: 20px;
+    font-family: 'Tsukimi Rounded', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.size-colour-change {
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+}
+
+.bridel-name {
+    height: 60px;
+    width: 95vw;
+    color: #1e5116;
+    font-size: 45px;
+    letter-spacing: 10px;
+    font-family: 'Felipa', cursive;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.date {
+    height: 40px;
+    width: 95vw;
+    color: #1e5116;
+    font-size: 20px;
+    font-family: 'Tsukimi Rounded', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.awaiting {
+    height: 40px;
+    width: 95vw;
+    color: #1e5116;
+    font-size: 20px;
+    font-family: 'Tsukimi Rounded', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cous-frd-name {
+    height: 40px;
+    width: 95vw;
+    color: #1e5116;
+    font-size: 20px;
+    font-family: 'Tsukimi Rounded', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.address {
+    height: 40px;
+    width: 95vw;
+    color: #1e5116;
+    font-size: 20px;
+    font-family: 'Tsukimi Rounded', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.phone-number {
+    height: 40px;
+    width: 95vw;
+    color: #1e5116;
+    font-size: 20px;
+    font-family: 'Tsukimi Rounded', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mehndi-cartoon-img img {
+    height: 260px;
+    width: 28vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+    @media screen and (max-width:391px) {
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .background {
+            background-image:linear-gradient(
+                to right bottom, 
+                rgba(64, 0, 0, 0.9),
+                rgba(244, 109, 117, 0.6)),
+                url(./image/img1.wallspic.com-vector_graphics-paper-monochrome-pattern-monochrome_mode-3840x2400.jpg);
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-direction: column;
+            gap: 30px;
+            width: 391px;
+        }
+
+        .top-bar {
+            height: 60px;
+            width: 95vw;
+            word-spacing: 2px;
+            font-family: 'Cinzel', serif;
+            font-size: 15px;
+            text-align: center;
+        }
+        
+        .names {
+            height: 260px;
+            width: 95vw;
+        }
+        
+        .names img {
+            width: 400px;
+            height: 250px;
+        }
+        
+        .animation {
+            height: 280px;
+            width: 95vw;
+        }
+        
+        .groom-cartoon {
+            height: 280px;
+            width: 100px;
+            margin-left: 10px;
+            animation-name: moveInleft;
+            animation-duration: 2s;
+            animation-timing-function: ease-out;
+        }
+        
+        @keyframes moveInleft{
+            0%{
+                opacity: 0;
+                transform: translateX(-20px);
+                -webkit-transform: translateX(-20px);
+                -moz-transform: translateX(-20px);
+                -ms-transform: translateX(-20px);
+                -o-transform: translateX(-20px);
+}
+            80%{
+                transform: translateX(60px);
+                -webkit-transform: translateX(60px);
+                -moz-transform: translateX(60px);
+                -ms-transform: translateX(60px);
+                -o-transform: translateX(60px);
+}
+            100%{
+                opacity: 1;
+                transform: translate(0);
+                -webkit-transform: translate(0);
+                -moz-transform: translate(0);
+                -ms-transform: translate(0);
+                -o-transform: translate(0);
+            }
+        }
+        
+        .bridel-cartoon {
+            height: 280px;
+            width: 140px;
+            margin-left: 150px;
+            animation-name: moveInright;
+            animation-duration: 2s;
+            animation-timing-function: ease-out;
+        }
+        
+        @keyframes moveInright{
+            0%{
+                opacity: 0;
+                transform: translateX(20px);
+                -webkit-transform: translateX(20px);
+                -moz-transform: translateX(20px);
+                -ms-transform: translateX(20px);
+                -o-transform: translateX(20px);
+}
+            80%{
+                transform: translate(-60px);
+                -webkit-transform: translate(-60px);
+                -moz-transform: translate(-60px);
+                -ms-transform: translate(-60px);
+                -o-transform: translate(-60px);
+}
+            100%{
+                opacity: 1;
+                transform: translate(0);
+                -webkit-transform: translate(0);
+                -moz-transform: translate(0);
+                -ms-transform: translate(0);
+                -o-transform: translate(0);
+            }
+            }
+
+            .card-btn {
+                height: 60px;
+                width: 90vw;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+            
+            .button {
+                width: 120px;
+                height: 50px;
+                text-decoration: none;
+                background: #4E9CAF;
+                padding: 5px;
+                text-align: center;
+                border-radius: 20px;
+                color: white;
+                line-height: 35px;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                -ms-border-radius: 20px;
+                -o-border-radius: 20px;
+            }
+            
+
+            /* mehndi-fuction-media */
+
+            .mehndi-backgrounud {
+                background-image:linear-gradient(
+                to left top, 
+                rgba(64, 2, 0, 0.363),
+                rgba(248, 232, 11, 0.705)),
+                url(./image/wallpaper2you_319128.jpg);
+                background-size: cover;
+                height: 100vh;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: column;
+        }
+        
+        .main-line {
+            height: 45px;
+            width: 95vw;
+            color: #1e5116;
+            font-size: 15px;
+            font-family: 'Tsukimi Rounded', sans-serif;
+            font-weight: 600;
+            text-align: center;
+        }
+        
+        .rasm-e-hina {
+            height: 50px;
+            width: 95vw;
+            word-spacing: 9px;
+            color: #1e5116;
+            font-size: 15px;
+            font-family: 'Tsukimi Rounded', sans-serif;
+            font-weight: 700;
+            text-align: center;
+        }
+        
+        .size-colour-change {
+            font-size: 25px;
+            font-family: 'Lobster', cursive;
+        }
+        
+        .bridel-name {
+            height: 50px;
+            width: 95vw;
+            color: #1e5116;
+            font-size: 45px;
+            letter-spacing: 5px;
+            font-family: 'Felipa', cursive;
+            font-weight: 700;
+        }
+        
+        .date {
+            height: 40px;
+            width: 95vw;
+            color: #1e5116;
+            font-size: 18px;
+            font-weight: 700;
+            font-family: 'Tsukimi Rounded', sans-serif;
+            font-weight: 600;
+        }
+        
+        .awaiting {
+            height: 40px;
+            width: 95vw;
+            color: #1e5116;
+            font-size: 20px;
+            font-family: 'Tsukimi Rounded', sans-serif;
+            font-weight: 600;
+        }
+        
+        .cous-frd-name {
+            height: 40px;
+            width: 95vw;
+            color: #1e5116;
+            font-size: 20px;
+            font-family: 'Tsukimi Rounded', sans-serif;
+            font-weight: 600;
+        }
+        
+        .address {
+            height: 40px;
+            width: 95vw;
+            color: #1e5116;
+            font-size: 18px;
+            font-family: 'Tsukimi Rounded', sans-serif;
+            font-weight: 700;
+        }
+
+        .phone-number {
+            height: 100px;
+            width: 95vw;
+            color: #1e5116;
+            font-size: 18px;
+            font-family: 'Tsukimi Rounded', sans-serif;
+            font-weight: 600;
+            text-align: center;
+        }
+        
+        .mehndi-cartoon-img img {
+            height: 300px;
+            width: 70vw;
+        }
+        
+    }
